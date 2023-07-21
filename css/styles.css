@@ -1,39 +1,59 @@
 body {
-    background-color: E5E4E2;
-    font-family: 'Rubik', sans-serif;
-}
-
-.btn-lg {
-    padding: 2rem 1rem;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    border-radius: 0.3rem;
+    font-family: "Rubik", sans-serif;
   }
-
-.btn-primary {
-    color: #71aeef;
-    background-color: #ffffff;
-    border-color: #548fcf;
-}
-
-.btn-primary:hover {
-    color: #fff;
-    background-color: #4297f3;
-    border-color: #0062cc;
-}
-
-.btn-primary:focus, .btn-primary.focus {
-    color: #fff;
-    background-color: #4297f3;
-    border-color: #0062cc;
-    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
-}
-
-.btn-danger {
-    background-color: #ffffff;
-    color: #71aeef;
-}
-
-i {
-    padding-left: 10%;
-}
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Monserrat", sans-serif;
+  }
+  
+  nav {
+    background-color: hsl(24, 100%, 88%);
+  }
+  
+  .jumbotron {
+    background-color: white;
+    margin: 0;
+  }
+  .jumbotron p {
+    font-size: 1rem;
+  }
+  
+  .dbt-button-wrapper .btn-primary.emotions-button, .dbt-button-wrapper .btn-primary.urges-button {
+    align-items: center;
+    border-radius: 0.3rem;
+    color: black;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    margin: 1rem;
+    padding: 2rem 1rem;
+  }
+  .dbt-button-wrapper .btn-primary.emotions-button {
+    background-color: #CCEEBC;
+    border: 2px solid #8ed96b;
+  }
+  .dbt-button-wrapper .btn-primary.urges-button {
+    background-color: #D4FAFC;
+    border: 2px solid #75eff5;
+  }
+  .dbt-button-wrapper .btn-danger.sos-button {
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  footer {
+    background-color: #FFD9C0;
+  }
+  footer .footer-content-wrapper {
+    align-items: center;
+  }
+  footer .app-badge-wrapper a {
+    margin: 1rem;
+  }
+  footer .app-badge-wrapper a > img {
+    width: 12rem;
+    max-height: 4rem;
+    object-fit: contain;
+  }
