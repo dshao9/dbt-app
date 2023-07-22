@@ -18,28 +18,48 @@ body {
     font-size: 1rem;
   }
   
-  .dbt-button-wrapper .btn-primary.emotions-button, .dbt-button-wrapper .btn-primary.urges-button,  .dbt-button-wrapper .btn-primary.sos-button {
+/*--Button Styles--*/
+
+  .dbt-button-wrapper .btn-primary.emotions-button, .dbt-button-wrapper .btn-primary.urges-button,  .dbt-button-wrapper .btn-primary.sos-button, .dbt-button-wrapper .btn-primary.green-button,   .dbt-button-wrapper .btn-primary.blue-button {
     align-items: center;
     border-radius: 0.3rem;
     color: black;
     font-size: 1.5rem;
     justify-content: space-around;
-    margin: 1rem;
-    padding: 2rem 3rem;
   }
   .dbt-button-wrapper .btn-primary.emotions-button {
     background-color: #CCEEBC;
     border: 2px solid #8ed96b;
+    margin: 1rem;
+    padding: 2rem 3rem;
   }
   .dbt-button-wrapper .btn-primary.urges-button {
     background-color: #D4FAFC;
     border: 2px solid #75eff5;
+    margin: 1rem;
+    padding: 2rem 3rem;
   }
   .dbt-button-wrapper .btn-primary.sos-button {
     background-color: #f77474;
     border: 2px solid #ba1313;
+    margin: 1rem;
+    padding: 2rem 3rem;
+  }
+  .dbt-button-wrapper .btn-primary.green-button {
+    background-color: #CCEEBC;
+    border: 2px solid #8ed96b;
+    margin: 0.5rem;
+    padding: 0.5rem 3rem;
+  }
+  .dbt-button-wrapper .btn-primary.blue-button {
+    background-color: #D4FAFC;
+    border: 2px solid #75eff5;
+    margin: 0.5rem;
+    padding: 0.5rem 3rem;
   }
   
+
+  /*--Footer Styles--*/
   footer {
     background-color: #FFD9C0;
   }
