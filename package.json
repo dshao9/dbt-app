@@ -1,6 +1,6 @@
 {
   "name": "dbt-app",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A Helper App for Using DBT Skills",
   "main": "index.html",
   "scripts": {
