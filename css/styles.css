@@ -25,7 +25,7 @@ body {
     font-size: 1.5rem;
     justify-content: space-around;
     margin: 1rem;
-    padding: 2rem 1rem;
+    padding: 2rem 3rem;
   }
   .dbt-button-wrapper .btn-primary.emotions-button {
     background-color: #CCEEBC;
@@ -36,8 +36,8 @@ body {
     border: 2px solid #75eff5;
   }
   .dbt-button-wrapper .btn-primary.sos-button {
-    background-color: #ed3e3e;
-    border: 2px solid #590808;
+    background-color: #f77474;
+    border: 2px solid #ba1313;
   }
   
   footer {
@@ -50,6 +50,6 @@ body {
 
   footer .app-badge-wrapper a > img {
     width: 12rem;
-    
+    margin: 
     
   }
